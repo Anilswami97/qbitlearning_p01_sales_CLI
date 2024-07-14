@@ -22,10 +22,10 @@
 ## About
 ------
 
-This will provide you a seamless experience throught out the entire program from you just need to execute the `main.py` file just by running a command in your cmd at the location of this folder.
+It provides a seamless experience throughout the entire program. You just need to execute the `main.py` file by running the following command in your terminal at the location of this folder:
 Command:
 ```
-py main.py
+C:\User\app\projects\crm>py main.py
 ```
 ### From here, the major functionalities start:
 
@@ -37,5 +37,12 @@ py main.py
 
 4. **Efficient Data Management**: We have efficiently managed data recovery, user experience/interactivity, and file and database handling.
 
+
 ------
+
+#### So, this is how it ends🥂👩🏻‍💻.
+
+**Made with 🤍 by *Anil Swami***
+
+**Special Thanks to [QbitsLearning](https://www.qbitslearning.com/ "QbitLearning's Homepage") Community🤍 and *Nitish Shetty Sir*✨**
 
