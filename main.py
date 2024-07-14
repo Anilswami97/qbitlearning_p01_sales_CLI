@@ -44,7 +44,7 @@ def generate_leads():
 
 
 def load_data():
-    df = read_csv("sales.csv")
+    df = read_csv('sales.csv')
     handled_leads = df.loc[df['lead_status'] == 1]
     unhandled_leads = df.loc[df['lead_status'] == 0]
     return df, handled_leads, unhandled_leads
@@ -240,7 +240,7 @@ def visualize(util_args):
     fig.add_trace(bar, row=1, col=2)
 
     fig.update_layout(
-        title_text=f"Visualization of Leads Assigned to \"{util_args.get("name")}\"", 
+        title_text=f"Visualization of Leads Assigned to '{util_args.get("name")}'", 
         template = "plotly_dark", 
     )
 
@@ -253,7 +253,7 @@ def login(cursor):
         print()
 
         print("------------------------")
-        print("--- Enter \".exit\" to exit ---")
+        print('--- Enter ".exit" to exit ---')
         username = input("Enter Username: ")
         if username == ".exit":
             exit()   # Exit the program if the user enters ".exit"
@@ -265,7 +265,7 @@ def login(cursor):
 
             if result:
                 # If username is found, return their ID and name
-                print(f"Welcome \'{username}\' to the CRM Panel.")
+                print(f"Welcome '{username}' to the CRM Panel.")
                 print()
                 input("Press Enter to continue...")
                 clear_scr()    # Clear the screen for better User-Experience(UX)
@@ -286,7 +286,7 @@ def display_menu(handled_leads, unhandled_leads, util_args):
     # Display Menu options
     print()
     print("+------------------------------------------------------+")
-    print(f"Username: {util_args.get("name")}           User ID: {util_args.get("bda_id")}")
+    print(f'Username: {util_args.get("name")}           User ID: {util_args.get("bda_id")}')
     print()
     print("1. Handle Next Lead.")
     print("2. Show Handled Leads.")
@@ -310,7 +310,7 @@ def display_leads(status):
             print("|   Name    |   Phone no.   |   Result   |")
             print("#===============================================#")
             for _, row in handled_leads.iterrows():
-                print(f"|  {row["lead_name"]}  |  {row["lead_mobile"]}   | {row["lead_result"]}  |")
+                print(f'|  {row["lead_name"]}  |  {row["lead_mobile"]}   | {row["lead_result"]}  |')
                 print("+-----------------------------------------------+")
         else:
             print()
@@ -324,7 +324,7 @@ def display_leads(status):
             print("|   Name    |   Phone no.   |   Result   |")
             print("#===============================================#")
             for _, row in unhandled_leads.iterrows():
-                print(f"|  {row["lead_name"]}  |  {row["lead_mobile"]}   | {row["lead_result"]}  |")
+                print(f'|  {row["lead_name"]}  |  {row["lead_mobile"]}   | {row["lead_result"]}  |')
                 print("+-----------------------------------------------+")
         else:
             print()
@@ -358,7 +358,7 @@ def handle_next_lead(unhandled_leads, util_args):
         print("+-------------------------+")
         print("|    Name   |   Phone no. |")
         print("+-------------------------+")
-        print(f"|  {lead["lead_name"]}  |  {lead["lead_mobile"]}  |")
+        print(f'|  {lead["lead_name"]}  |  {lead["lead_mobile"]}  |')
         print("+-------------------------+")
         print()
 
@@ -532,11 +532,11 @@ if __name__ == "__main__":
                         conn.close()
                         clear_scr()
                         break
+
                     else:
                         clear_scr()
                         continue
                         
-
                 case _:
                     print()
                     print("!! Invalid Option. Please choose from the given options !!")
