@@ -80,5 +80,5 @@ C:\User\app\projects\crm>py main.py
 
 **Made with 🤍 by *Anil Swami***
 
-**Special Thanks to [QbitsLearning](https://www.qbitslearning.com/ "QbitLearning's Homepage") Community🤍 and *Nitish Shetty Sir*✨**
+**Special Thanks to [QbitsLearning](https://www.qbitslearning.com/ "QbitLearning's Homepage") Community🤍 and [***Nitish Shetty Sir***](https://www.linkedin.com/in/nitish-m-setty-7a0206192/ "Nitish Shetty Sir")✨**
 
