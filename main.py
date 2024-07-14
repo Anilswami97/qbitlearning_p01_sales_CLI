@@ -240,7 +240,7 @@ def visualize(util_args):
     fig.add_trace(bar, row=1, col=2)
 
     fig.update_layout(
-        title_text=f"Visualization of Leads Assigned to '{util_args.get("name")}'", 
+        title_text=f"Visualization of Leads Assigned to '{util_args.get('name')}'", 
         template = "plotly_dark", 
     )
 
