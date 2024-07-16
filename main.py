@@ -15,6 +15,7 @@ from datetime import datetime
 import plotly.graph_objs as go
 from __init__ import create_db
 from plotly.subplots import make_subplots
+from faker import Faker 
 
 
 
@@ -29,9 +30,10 @@ def read_csv(path):
 
 # Data Preprocessing
 def generate_leads():
+    fake = Faker()
     leads_no = np.random.randint(10, 50)
     numbers = [int("".join(np.random.choice(list(string.digits), 10))) for _ in range(leads_no)]
-    names = ["".join(np.random.choice(list(string.ascii_letters), 7)).strip() for _ in range(leads_no)]
+    names = [fake.name() for _ in range(leads_no)]
     status = [0]*leads_no
     result = ["Unhandled"]*leads_no
 

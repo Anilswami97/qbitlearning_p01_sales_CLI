@@ -9,6 +9,7 @@
 * Pandas
 * Numpy
 * Plotly
+* faker
 
 #### Tools:
 * Jupyter Notebook
@@ -17,6 +18,39 @@
 * GitHub
 * Terminal
 * Python
+------
+
+## Dependencies
+
+* **sqlite3:** SQLite3 is a lightweight, serverless SQL database engine, ideal for embedded applications and local data storage.
+install:
+```
+    pip install db-sqlite3
+```
+
+* **Pandas:** Pandas is a powerful data manipulation and analysis library for Python
+install:
+```
+    pip install pandas
+```
+
+* **Numpy:** NumPy is a key Python library for numerical computations, offering robust arrays and functions for efficient data operations.
+install:
+```
+pip install numpy
+```
+
+* **Plotly:** Plotly is a Python graphing library that makes interactive, publication-quality graphs online.
+install:
+```
+pip install plotly
+```
+
+* **faker:** Faker is a Python library that generates realistic fake data for various purposes like testing and populating databases.
+install:
+```
+pip install faker
+```
 ------
 
 ## About
