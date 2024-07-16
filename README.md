@@ -63,7 +63,7 @@ C:\User\app\projects\crm>py main.py
 ```
 ### From here, the major functionalities start:
 
-1. **Automatic Database Creation**: You don't need to create or run any explicit commands to create the crm.db database. The program will automatically check for its existence. If it doesn't exist, it will create it automatically, containing all the required tables to store your data.
+1. **Automatic Database Creation**: You don't need to create or run any explicit commands to create the `crm.db` database. The program will automatically check for its existence. If it doesn't exist, it will create it automatically, containing all the required tables to store your data.
 
 2. **Optimized Database Querying**: We have minimized the frequency of database hits/queries, making the application more efficient.
 
