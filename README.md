@@ -21,6 +21,7 @@
 ------
 
 ## Dependencies
+***Make sure you have***
 
 * **sqlite3:** SQLite3 is a lightweight, serverless SQL database engine, ideal for embedded applications and local data storage.<br>
 
